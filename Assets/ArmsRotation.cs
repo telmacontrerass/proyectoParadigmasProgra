@@ -31,6 +31,6 @@ public class ArmsRotation : MonoBehaviour
     private void Rotate(float direction)
     {
         if (direction == 0f) return;
-        transform.Rotate(ejeRotacion * direction * RotationVelocity * Time.deltaTime, Space.Self);
+        transform.Rotate(ejeRotacion * direction * RotationVelocity * Time.deltaTime, Space.World);
     }
 }

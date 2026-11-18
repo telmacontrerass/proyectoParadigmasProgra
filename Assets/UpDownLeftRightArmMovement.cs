@@ -5,7 +5,7 @@ public class ArmsPanMovement : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private Space movementSpace = Space.Self;
+    [SerializeField] private Space movementSpace = Space.World;
 
     [Header("Keys")]
     [SerializeField] private Key leftKey = Key.LeftArrow;
